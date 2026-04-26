@@ -93,7 +93,7 @@ function FloatingBox({ position, color }: {
 function Name3D() {
   return (
     <Center>
-      <Text
+      {/* <Text
         fontSize={2.2}
         color="#e0e0e0"
         anchorX="center"
@@ -102,7 +102,7 @@ function Name3D() {
         letterSpacing={0.1}
       >
         AYUSH
-      </Text>
+      </Text> */}
     </Center>
   )
 }
