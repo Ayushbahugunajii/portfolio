@@ -10,7 +10,7 @@ import {
 import { Suspense, useRef, useEffect } from "react";
 import * as THREE from "three";
 
-/* ── Mouse-driven scene rotation ───────────────────────────────────── */
+
 function MouseRotator() {
   const { scene } = useThree();
   const mouse = useRef({ x: 0, y: 0 });
@@ -35,7 +35,7 @@ function MouseRotator() {
   return null;
 }
 
-/* ── Shape components ───────────────────────────────────────────────── */
+
 function FloatingGeometry({
   position,
   scale = 1,
